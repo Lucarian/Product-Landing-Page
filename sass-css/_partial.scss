@@ -1,0 +1,27 @@
+$greenie: greenyellow;
+$reddish: rgb(240, 92, 92);
+$bluish: rgb(84, 164, 230);
+$brownie: rgb(136, 80, 80);
+$lightBrown: rgb(185, 102, 35);
+$lightYellow: rgb(241, 241, 40);
+
+@mixin transform($property) {
+    -webkit-transform: $property;
+    -ms-transform: $property;
+    transform: $property;
+}
+
+%size {
+    width: 100px;
+    height:80px;
+}
+
+%border {
+    border: 1px solid;
+}
+
+main {
+    height: 1460px;
+    background-color: $lightYellow;
+    margin-top: 80px;
+}
